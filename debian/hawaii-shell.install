@@ -5,3 +5,7 @@ usr/share/kservices5/plasma-wallpaper-org.hawaii.wallpapers.*
 usr/share/plasma/look-and-feel/org.hawaii.lookandfeel.desktop/
 usr/share/plasma/shells/org.hawaii.shells.desktop/
 usr/share/plasma/wallpapers/
+usr/share/desktop-directories/
+usr/share/xsessions/
+usr/share/wayland-sessions/
+
