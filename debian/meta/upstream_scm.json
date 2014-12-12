@@ -1,5 +1,5 @@
 {
-    "type" : "git"
-    "url"  : "git://github.com/hawaii-desktop/hawaii-shell"
+    "type" : "git",
+    "url"  : "git://github.com/hawaii-desktop/hawaii-shell",
     "branch" : "master"
 }
