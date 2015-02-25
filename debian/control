@@ -13,7 +13,6 @@ Build-Depends: cmake,
                libkf5solid-dev,
                pkg-kde-tools,
                plasma-framework-dev,
-               plasma-workspace-dev,
                qtdeclarative5-dev,
                qtquick1-5-dev
 Standards-Version: 3.9.5
