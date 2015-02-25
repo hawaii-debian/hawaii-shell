@@ -2,3 +2,4 @@ usr/bin/*
 usr/lib/systemd/user/*
 usr/share/greenisland/org.hawaii.desktop/*
 usr/share/wayland-sessions/*
+usr/lib/*/qt5/plugins/platformthemes/
