@@ -1,11 +1,4 @@
-etc/xdg/
-usr/share/kservices5/plasma-lookandfeel-org.hawaii.lookandfeel.desktop.desktop
-usr/share/kservices5/plasma-shell-org.hawaii.shells.desktop.desktop
-usr/share/kservices5/plasma-wallpaper-org.hawaii.wallpapers.*
-usr/share/plasma/look-and-feel/org.hawaii.lookandfeel.desktop/
-usr/share/plasma/shells/org.hawaii.shells.desktop/
-usr/share/plasma/wallpapers/
-usr/share/desktop-directories/
-usr/share/xsessions/
-usr/share/wayland-sessions/
-
+usr/bin/*
+usr/lib/systemd/user/*
+usr/share/greenisland/org.hawaii.desktop/*
+usr/share/wayland-sessions/*

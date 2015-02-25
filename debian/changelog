@@ -1,3 +1,9 @@
+hawaii-shell (0+git20150225.1442-1) unstable; urgency=medium
+
+  * Automatic Debian Build
+
+ -- Debian CI <null@debian.org>  Wed, 25 Feb 2015 14:42:45 +0000
+
 hawaii-shell (0-1) unstable; urgency=low
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>

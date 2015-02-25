@@ -5,51 +5,54 @@ Maintainer: Rohan Garg <rohangarg@kubuntu.org>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
+               kwayland-dev,
+               libegl1-mesa-dev,
+               libgreenisland-dev,
                libkf5declarative-dev,
                libkf5i18n-dev,
                libkf5kdelibs4support-dev,
                libkf5runner-dev,
+               libkf5screen-dev,
                libkf5service-dev,
                libkf5solid-dev,
+               libqt5waylandclient5-dev,
+               libsystemd-dev,
+               pkg-config,
                pkg-kde-tools,
                plasma-framework-dev,
+               qtbase5-private-dev,
                qtdeclarative5-dev,
-               qtquick1-5-dev
+               qtquick1-5-dev,
+               qtwayland5
 Standards-Version: 3.9.5
 Homepage: https://github.com/hawaii-desktop/hawaii-shell
 
 Package: hawaii-shell
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: hawaii-framework,
+         hawaii-shell-themes,
+         qml-module-org-hawaii,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: hawaii desktop environment shell
  Hawaii desktop environment shell
 
-Package: sddm-theme-mauiproject
-Architecture: all
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: mauiproject theme for SDDM
- This package contains the mauiproject theme for sddm
-
-Package: qml-module-org-hawaii-appchooser
+Package: qml-module-org-hawaii
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: provides integration of QML and Hawaii - appchooser
- Provides QML appchooser functionality
+Description: provides integration of QML and Hawaii
+ Provides QML plugins for hawaii
  .
  This package is part of hawaii-shell.
 
-Package: plasma-widget-appchooser
-Architecture: all
-Depends: qml-module-org-hawaii-appchooser, ${misc:Depends}, ${shlibs:Depends}
-Description: appchooser plasma widget written for Hawaii
- Plasma widget to choose apps in Hawaii Shell
- .
- This package is part of hawaii-shell.
-
-Package: plasma-widget-hawaii-notifications
-Architecture: all
+Package: hawaii-shell-themes
+Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: notification plasma widget written for Hawaii
- Plasma widget to show notifications in Hawaii Shell
- .
- This package is part of hawaii-shell.
+Description: provides themes for hawaii-shell
+ This package provides themes for hawaii-shell
+
+Package: hawaii-framework
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: generic plugins from hawaii-shell
+ This package contains plugins for hawaii-shell
