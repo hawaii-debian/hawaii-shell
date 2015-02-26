@@ -32,6 +32,14 @@ Architecture: any
 Depends: hawaii-framework,
          hawaii-shell-themes,
          qml-module-org-hawaii,
+         dbus-x11,
+         qml-module-qtquick2,
+         qml-module-greenisland,
+         qml-module-qtquick-controls,
+         qml-module-qtgraphicaleffects,
+         qml-module-org-kde-kcoreaddons,
+         plasma-nm,
+         plasma-framework,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: hawaii desktop environment shell
