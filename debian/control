@@ -29,17 +29,18 @@ Homepage: https://github.com/hawaii-desktop/hawaii-shell
 
 Package: hawaii-shell
 Architecture: any
-Depends: hawaii-framework,
+Depends: dbus-x11,
+         greenisland,
+         hawaii-framework,
          hawaii-shell-themes,
-         qml-module-org-hawaii,
-         dbus-x11,
-         qml-module-qtquick2,
-         qml-module-greenisland,
-         qml-module-qtquick-controls,
-         qml-module-qtgraphicaleffects,
-         qml-module-org-kde-kcoreaddons,
-         plasma-nm,
          plasma-framework,
+         plasma-nm,
+         qml-module-greenisland,
+         qml-module-org-hawaii,
+         qml-module-org-kde-kcoreaddons,
+         qml-module-qtgraphicaleffects,
+         qml-module-qtquick-controls,
+         qml-module-qtquick2,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: hawaii desktop environment shell
